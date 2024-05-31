@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "ru-RU",
   title: "Хуёкер",
   titleTemplate: ":title • Хуёкер",
-  description: "Open-Source прокси для использования Docker из заблокированных стран",
+  description: "Open-source прокси для использования Docker из заблокированных стран",
   head: [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
