@@ -2,12 +2,12 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 title: Хуёкер
-titleTemplate: :title – Open-Source прокси для Docker
+titleTemplate: :title – Open-source прокси для Docker
 
 hero:
   name: "Хуёкер"
-  text: "Open-Source прокси для Docker"
-  tagline: Опасно, не используйте на продакшне!
+  text: "Open-source прокси для Docker"
+  tagline: Не рекомендуется для продакшна!
   image:
     light: /logo_icon.svg
     dark: /logo_icon_dark.svg
