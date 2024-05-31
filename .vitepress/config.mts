@@ -83,7 +83,6 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Главная', link: '/' },
       { text: 'Зачем', link: '/reasons' },
       { text: 'Как использовать', link: '/use' },
       { text: 'Поддержать', link: '/support' }
@@ -97,12 +96,14 @@ export default defineConfig({
           { text: 'Использование', link: '/use' },
           { text: 'Другие прокси', link: '/others' },
           { text: 'Поддержать', link: '/support' },
+          { text: 'Автор', link: '/author' },
         ]
       }
     ],
 
     footer: {
       message: 'Опубликовано под лицензией Apache-2.0',
+      copyright: 'Создатель <a href="https://github.com/altfoxie" target="_blank">@altfoxie</a>, сайт и лого <a href="https://github.com/glebgorokhov" target="_blank">@glebgorokhov</a>'
     },
 
     socialLinks: [
