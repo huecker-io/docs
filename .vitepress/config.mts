@@ -106,7 +106,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/altfoxie/huecker' }
+      { icon: 'github', link: 'https://github.com/huecker-io/huecker' }
     ]
   }
 })
