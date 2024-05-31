@@ -5,7 +5,7 @@
 
 Сделано с помощью [VitePress](https://vitepress.dev/).
 
-Ссылка на [Хуёкер](https://github.com/altfoxie/huecker).
+Ссылка на [Хуёкер](https://github.com/huecker-io/huecker).
 
 ## Установка
 
