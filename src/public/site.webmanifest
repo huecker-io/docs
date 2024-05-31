@@ -3,12 +3,12 @@
     "short_name": "\u0425\u0443\u0451\u043a\u0435\u0440",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/huecker-docs/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/huecker-docs/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
