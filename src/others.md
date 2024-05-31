@@ -1,17 +1,18 @@
 # Другие прокси
 
 | Адрес                              | Описание                                                                                                         |
-|------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| https://mirror.gcr.io              | гугл                                                                                                             |
-| https://dockerhub.timeweb.cloud    | таймвеб <a href="https://github.com/altfoxie/vzlom-kazino" title="фагло попросил пропиарить взлом казино">😡</a> |
-| https://cr.yandex/mirror           | яндекс                                                                                                           |
-| https://dockerhub1.beget.com       | бегет                                                                                                            |
-| https://noohub.ru                  | noosoft                                                                                                          |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| https://mirror.gcr.io              | Google                                                                                                           |
+| https://dockerhub.timeweb.cloud    | Timeweb <a href="https://github.com/altfoxie/vzlom-kazino" title="фагло попросил пропиарить взлом казино">😡</a> |
+| https://cr.yandex/mirror           | Яндекс                                                                                                           |
+| https://dockerhub1.beget.com       | Beget                                                                                                            |
+| https://noohub.ru                  | NooSoft                                                                                                          |
+| https://jockerhub.com/             | DpkgSoft                                                                                                         |
 | https://dcr-px.ru                  | прислал имейлом аноним                                                                                           |
-| https://quay.io                    | redhat                                                                                                           |
-| https://registry.access.redhat.com | redhat                                                                                                           |
-| https://registry.redhat.io         | redhat                                                                                                           |
-| https://public.ecr.aws             | amazon                                                                                                           |
-| https://daocloud.io                | китай                                                                                                            |
-| https://c.163.com                  | китай                                                                                                            |
-| https://registry.docker-cn.com     | китай                                                                                                            |
+| https://quay.io                    | Red Hat                                                                                                          |
+| https://registry.access.redhat.com | Red Hat                                                                                                          |
+| https://registry.redhat.io         | Red Hat                                                                                                          |
+| https://public.ecr.aws             | Amazon                                                                                                           |
+| https://daocloud.io                | Китай                                                                                                            |
+| https://c.163.com                  | Китай                                                                                                            |
+| https://registry.docker-cn.com     | Китай                                                                                                            |
