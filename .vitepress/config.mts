@@ -85,6 +85,7 @@ export default defineConfig({
       { text: 'Зачем', link: '/reasons' },
       { text: 'Как использовать', link: '/use' },
       { text: 'Поддержать', link: '/support' }
+      { text: 'Авторы', link: '/authors' }
     ],
 
     sidebar: [
