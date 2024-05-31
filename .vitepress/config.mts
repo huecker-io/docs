@@ -84,7 +84,7 @@ export default defineConfig({
     nav: [
       { text: 'Зачем', link: '/reasons' },
       { text: 'Как использовать', link: '/use' },
-      { text: 'Поддержать', link: '/support' }
+      { text: 'Поддержать', link: '/support' },
       { text: 'Авторы', link: '/authors' }
     ],
 
