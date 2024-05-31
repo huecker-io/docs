@@ -1,4 +1,4 @@
-name: Deploy docs to Pages
+name: Build docs
 
 on:
   push:
@@ -7,11 +7,10 @@ on:
 
 permissions:
   contents: read
-  pages: write
   id-token: write
 
 concurrency:
-  group: pages
+  group: docs
   cancel-in-progress: false
 
 jobs:
@@ -29,26 +28,12 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
       - name: Install dependencies
         run: pnpm install
       - name: Build with VitePress
         run: pnpm docs:build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
+          name: huecker-docs
           path: dist
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
