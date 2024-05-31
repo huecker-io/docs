@@ -9,7 +9,8 @@ hero:
   text: "Open-Source прокси для Docker"
   tagline: Опасно, не используйте на продакшне!
   image:
-    src: /logo_icon.svg
+    light: /logo_icon.svg
+    dark: /logo_icon_dark.svg
     alt: Хуёкер
   actions:
     - theme: brand
