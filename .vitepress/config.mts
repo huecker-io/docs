@@ -20,6 +20,7 @@ export default defineConfig({
   outDir: './dist',
   appearance: 'dark',
   lastUpdated: true,
+  base: "/huecker-docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: false,
