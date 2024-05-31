@@ -95,14 +95,14 @@ export default defineConfig({
           { text: 'Использование', link: '/use' },
           { text: 'Другие прокси', link: '/others' },
           { text: 'Поддержать', link: '/support' },
-          { text: 'Автор', link: '/author' },
+          { text: 'Авторы', link: '/authors' },
         ]
       }
     ],
 
     footer: {
-      message: 'Опубликовано под лицензией Apache-2.0',
-      copyright: 'Создатель <a href="https://github.com/altfoxie" target="_blank">@altfoxie</a>, сайт и лого <a href="https://github.com/glebgorokhov" target="_blank">@glebgorokhov</a>'
+      message: 'Опубликовано под лицензией Apache-2.0, сервер: dev',
+      copyright: 'Создано <a href="https://github.com/altfoxie" target="_blank">@altfoxie</a>, сайт и лого <a href="https://github.com/glebgorokhov" target="_blank">@glebgorokhov</a>'
     },
 
     socialLinks: [
