@@ -1,4 +1,4 @@
-name: Build docs
+name: Build docs and try to deploy
 
 on:
   push:
@@ -37,3 +37,19 @@ jobs:
         with:
           name: huecker-docs
           path: dist
+
+  # Deployment job
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+
+      - name: Send request to sync server 1
+        run: curl -X POST http://huecker1:6666
+
+      - name: Send request to sync server 2
+        run: curl -X POST http://huecker2:6666
