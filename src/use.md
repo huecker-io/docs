@@ -5,7 +5,7 @@
 Расположен в:
 
 | Операционная система | Путь к файлу конфигурации                    |
-|----------------------|----------------------------------------------|
+| -------------------- | -------------------------------------------- |
 | Linux, regular setup | /etc/docker/daemon.json                      |
 | Linux, rootless mode | ~/.config/docker/daemon.json                 |
 | macOS                | ~/.docker/daemon.json                        |
@@ -16,8 +16,8 @@
 Конфиг:
 
 ```json
-{ 
-  "registry-mirrors": ["https:\/\/huecker.io"] 
+{
+  "registry-mirrors": ["https://huecker.io"]
 }
 ```
 
@@ -28,7 +28,6 @@ $ systemctl restart docker
 ```
 
 Теперь при попытке загрузки образа, докер будет сначала пытаться использовать прокси
-
 
 ## 2. Явное указание адреса
 

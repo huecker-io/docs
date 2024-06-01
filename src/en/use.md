@@ -5,7 +5,7 @@
 Located at:
 
 | Operating System     | Path to configuration file                   |
-|----------------------|----------------------------------------------|
+| -------------------- | -------------------------------------------- |
 | Linux, regular setup | /etc/docker/daemon.json                      |
 | Linux, rootless mode | ~/.config/docker/daemon.json                 |
 | macOS                | ~/.docker/daemon.json                        |
@@ -16,8 +16,8 @@ Located at:
 Config:
 
 ```json
-{ 
-  "registry-mirrors": ["https:\/\/huecker.io"] 
+{
+  "registry-mirrors": ["https://huecker.io"]
 }
 ```
 
@@ -28,7 +28,6 @@ $ systemctl restart docker
 ```
 
 Now when trying to download an image, docker will try to use the proxy first
-
 
 ## 2. Explicitly specifying the address
 
