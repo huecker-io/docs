@@ -8,8 +8,6 @@
 
 ## 1. Via docker config (as a mirror of docker.io) {#config}
 
-Located at:
-
 | Operating System     | Path to configuration file                   |
 | -------------------- | -------------------------------------------- |
 | Linux, regular setup | /etc/docker/daemon.json                      |
