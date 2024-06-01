@@ -1,5 +1,11 @@
 # How to Use
 
+> [!CAUTION] Act wisely!
+> By using any proxies, you expose yourself to security risks.
+> Third parties can intercept and modify all traffic, including logins and passwords.
+
+> [!WARNING] huecker.io is in the development stage and does not guarantee 100% availability and security.
+
 ## 1. Via docker config (as a mirror of docker.io)
 
 Located at:
