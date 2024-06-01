@@ -145,3 +145,8 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+/* Makes code blocks with very long lines readable */
+code {
+  white-space: pre-wrap !important;
+}
