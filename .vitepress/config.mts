@@ -8,7 +8,7 @@ export default defineConfig({
       lang: 'ru',
       title: "Хуёкер",
       titleTemplate: ":title • Хуёкер",
-      description: "Open-source прокси для использования Docker из заблокированных стран",
+      description: "Open-source прокси для использования Docker Hub из заблокированных стран",
       themeConfig: {
         search: {
           options: {
@@ -80,7 +80,7 @@ export default defineConfig({
       lang: 'en',
       title: "Huecker",
       titleTemplate: ":title • Huecker",
-      description: "Open-source proxy for using Docker from blocked countries",
+      description: "Open-source proxy for using Docker Hub from blocked countries",
       themeConfig: {
         nav: [
           {text: 'Reasons', link: '/en/reasons'},
