@@ -7,7 +7,7 @@
 **This method eliminates the possibility of traffic interception and image tampering.**
 
 > [!NOTE] Limitations
-> huecker.io connects only to `registry-1.docker.io` and other servers necessary for Docker Hub to work.
+> Proxy connects only to `registry-1.docker.io` and other servers necessary for Docker Hub to work.
 > To access other resources, such as `ghcr.io`, specify their addresses in the `no-proxy` parameter.
 
 By using a SOCKS5 proxy, you receive data from the original sources **without any modifications**.
