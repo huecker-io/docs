@@ -1,10 +1,11 @@
 # Other Proxies
 
-| Адрес                              | Описание                 |
-| ---------------------------------- |--------------------------|
+| Address                            | Description              |
+| ---------------------------------- | ------------------------ |
 | https://mirror.gcr.io              | Google                   |
 | https://dockerhub.timeweb.cloud    | Timeweb                  |
 | https://cr.yandex/mirror           | Yandex                   |
+| https://dh-mirror.gitverse.ru      | GitVerse (Sber)          |
 | https://dockerhub1.beget.com       | Beget                    |
 | https://noohub.ru                  | NooSoft                  |
 | https://jockerhub.com/             | DpkgSoft                 |
@@ -16,4 +17,3 @@
 | https://daocloud.io                | China                    |
 | https://c.163.com                  | China                    |
 | https://registry.docker-cn.com     | China                    |
-| https://dh-mirror.gitverse.ru      | GitVerse                 |
