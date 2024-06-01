@@ -16,3 +16,4 @@
 | https://daocloud.io                | Китай                                                                                                            |
 | https://c.163.com                  | Китай                                                                                                            |
 | https://registry.docker-cn.com     | Китай                                                                                                            |
+| https://dh-mirror.gitverse.ru      | GitVerse                                                                                                         |
