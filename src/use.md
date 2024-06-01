@@ -25,7 +25,7 @@
 }
 ```
 
-Перезапуск докера (systemd):
+Перезапуск Docker (systemd):
 
 ```bash
 $ systemctl restart docker
@@ -45,7 +45,7 @@ $ systemctl restart docker
 }
 ```
 
-Перезапуск докера (systemd):
+Перезапуск Docker (systemd):
 
 ```bash
 $ systemctl restart docker

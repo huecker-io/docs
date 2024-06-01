@@ -25,7 +25,7 @@ Config ([located here](#config-path)):
 }
 ```
 
-Restart docker (systemd):
+Restart Docker (systemd):
 
 ```bash
 $ systemctl restart docker
@@ -45,7 +45,7 @@ Config ([located here](#config-path)):
 }
 ```
 
-Restart docker (systemd):
+Restart Docker (systemd):
 
 ```bash
 $ systemctl restart docker
