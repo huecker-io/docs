@@ -1,4 +1,4 @@
-# How to Use
+# How to Use {#usage}
 
 > [!CAUTION] Act wisely!
 > By using any proxies, you expose yourself to security risks.
@@ -6,7 +6,7 @@
 
 > [!WARNING] huecker.io is in the development stage and does not guarantee 100% availability and security.
 
-## 1. Via docker config (as a mirror of docker.io)
+## 1. Via docker config (as a mirror of docker.io) {#config}
 
 Located at:
 
@@ -35,7 +35,7 @@ $ systemctl restart docker
 
 Now when trying to download an image, docker will try to use the proxy first
 
-## 2. Explicitly specifying the address
+## 2. Explicitly specifying the address {#explicit}
 
 ```bash
 $ docker pull huecker.io/library/alpine:latest

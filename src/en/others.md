@@ -1,4 +1,4 @@
-# Other Proxies
+# Other Proxies {#proxies-table}
 
 | Address                            | Description              |
 | ---------------------------------- | ------------------------ |

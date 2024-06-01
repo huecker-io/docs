@@ -26,6 +26,6 @@ const members = [
 ]
 </script>
 
-# Authors
+# Authors {#authors}
 
 <VPTeamMembers size="small" :members="members" />

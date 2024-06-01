@@ -1,10 +1,10 @@
-# Reasons
+# Reasons {#why}
 
 On the night of 5/30/2024, Docker Hub blocked access for users from Russia. This is due to sanctions imposed on Russia _(as well as Cuba, Iran, North Korea, Republic of Crimea, Sudan and Syria)_.
 
 The restriction affected a huge number of users, so it was decided to create a Docker Hub mirror available for developers from restricted regions.
 
-## Error text
+## Error text {#error-text}
 
 ```
 403 Forbidden
