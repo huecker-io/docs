@@ -49,7 +49,7 @@ jobs:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
 
       - name: Send request to sync server 1
-        run: curl -X POST http://huecker1:6666
+        run: curl --fail -X POST http://huecker1:6666
 
       - name: Send request to sync server 2
-        run: curl -X POST http://huecker2:6666
+        run: curl --fail -X POST http://huecker2:6666
