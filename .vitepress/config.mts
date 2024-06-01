@@ -73,7 +73,7 @@ export default defineConfig({
         footer: {
           message: "Опубликовано под лицензией Apache-2.0, сервер: dev",
           copyright:
-            'Создано <a href="https://github.com/altfoxie" target="_blank">@altfoxie</a>, сайт и лого <a href="https://github.com/glebgorokhov" target="_blank">@glebgorokhov</a> <a href="https://github.com/altfoxie/vzlom-kazino">🎰</a>',
+            'Создано <a href="https://github.com/altfoxie" target="_blank">@altfoxie</a>, сайт и лого <a href="https://github.com/glebgorokhov" target="_blank">@glebgorokhov</a> <a href="https://github.com/altfoxie/vzlom-kazino" style="text-decoration:none">🎰</a>',
         },
       },
     },
