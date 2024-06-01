@@ -25,10 +25,10 @@
 }
 ```
 
-Перезагрузка конфигурации Docker (systemd):
+Перезапуск докера (systemd):
 
 ```bash
-$ systemctl reload docker
+$ systemctl restart docker
 ```
 
 ## 2. Зеркало docker.io {#mirror}
@@ -45,10 +45,10 @@ $ systemctl reload docker
 }
 ```
 
-Перезагрузка конфигурации Docker (systemd):
+Перезапуск докера (systemd):
 
 ```bash
-$ systemctl reload docker
+$ systemctl restart docker
 ```
 
 Теперь при попытке загрузки образа, докер будет сначала пытаться использовать прокси
