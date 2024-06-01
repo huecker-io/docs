@@ -20,6 +20,7 @@ const members = [
     title: 'сайт и логотип',
     links: [
       { icon: 'github', link: 'https://github.com/glebgorokhov' },
+      { icon: { svg: telegramSvg }, link: 'https://t.me/ververy' },  
     ]
   },
 ]
