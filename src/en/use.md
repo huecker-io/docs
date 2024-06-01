@@ -8,7 +8,9 @@ Located at:
 |----------------------|------------------------------------------|
 | Linux, regular setup | /etc/docker/daemon.json                  |
 | Linux, rootless mode | ~/.config/docker/daemon.json             |
+| macOS                | ~/.docker/daemon.json                    |
 | Windows              | C:\ProgramData\docker\config\daemon.json |
+| Docker Desktop       | Preferences->Docker engine               |
 
 Config:
 
