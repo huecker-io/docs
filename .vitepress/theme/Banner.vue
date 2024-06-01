@@ -4,17 +4,16 @@ import { VPBadge } from "vitepress/theme";
 import { computed } from "vue";
 
 const data = useData();
-
-const text = computed(() => {
-  return data.lang.value == "en"
-    ? "Help test <b>secure SOCKS5 proxy</b> ->"
-    : "Помогите протестировать <b>безопасный SOCKS5 прокси</b> ->";
-});
 </script>
 
 <template>
   <a href="/use#socks5">
-    <VPBadge class="banner-text" v-html="text" />
+    <VPBadge class="banner-text" v-if="data.lang.value == 'en'"
+      >Help test <b>secure SOCKS5 proxy</b> -></VPBadge
+    >
+    <VPBadge class="banner-text" v-else
+      >Помогите протестировать <b>безопасный SOCKS5 прокси</b> -></VPBadge
+    >
   </a>
 </template>
 
