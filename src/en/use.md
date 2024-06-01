@@ -7,23 +7,26 @@
 **This method eliminates the possibility of traffic interception and image tampering.**
 
 > [!NOTE]
-> huecker.io connects only to `registry-1.docker.io` and does not make requests to other servers.
-> To access other resources, specify their addresses in the `no-proxy` parameter.
+> huecker.io connects only to `registry-1.docker.io` and other servers necessary for `docker.io` to work.
+> To access other resources, such as `ghcr.io`, specify their addresses in the `no-proxy` parameter.
 
-By using a SOCKS5 proxy, you receive data from docker.io without any alterations.
-Additionally, the SSL certificate of docker.io is verified, reducing the risk to virtually zero.
+By using a SOCKS5 proxy, you receive data from the original sources **without any modifications**.
+Additionally, SSL certificate verification is performed, reducing the risk **to virtually zero**.
 
-Config ([located here](#config-path)):
+Config example ([located here](#config-path)):
 
 ```json
 {
   "proxies": {
-    "http-proxy": "socks5://95.217.168.125:1080",
-    "https-proxy": "socks5://95.217.168.125:1080",
-    "no-proxy": "*.test.example.com,.example.org,127.0.0.0/8"
+    "http-proxy": "socks5://socks5.huecker.io:1080",
+    "https-proxy": "socks5://socks5.huecker.io:1080",
+    "no-proxy": "ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
   }
 }
 ```
+
+> IP: `95.217.168.125:1080`
+> We recommend using a domain name, the IP address is not guaranteed to be constant.
 
 Restart Docker (systemd):
 
