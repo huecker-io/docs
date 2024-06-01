@@ -18,8 +18,8 @@ Config example ([located here](#config-path)):
 ```json
 {
   "proxies": {
-    "http-proxy": "socks5://socks5.huecker.io:1080",
-    "https-proxy": "socks5://socks5.huecker.io:1080",
+    "http-proxy": "socks5://proxy.huecker.io:1080",
+    "https-proxy": "socks5://proxy.huecker.io:1080",
     "no-proxy": "ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
   }
 }
