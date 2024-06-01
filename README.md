@@ -5,7 +5,7 @@
 
 Сделано с помощью [VitePress](https://vitepress.dev/).
 
-Ссылка на [Хуёкер](https://github.com/huecker-io/huecker).
+[Хуёкер](https://huecker.io), [исходный код его Registry](https://github.com/huecker-io/huecker)
 
 ## Установка
 
