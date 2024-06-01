@@ -2,7 +2,7 @@
 
 > [!WARNING] huecker.io is in the development stage and does not guarantee 100% availability and security.
 
-## 1. New Secure Method (SOCKS5) {#socks5}
+## 1. New Secure Method (SOCKS5) {#socks5} <Badge type="warning" text="experiment" />
 
 **This method eliminates the possibility of traffic interception and image tampering.**
 
