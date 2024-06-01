@@ -4,13 +4,14 @@
 
 Расположен в:
 
-| Операционная система | Путь к файлу конфигурации                |
-|----------------------|------------------------------------------|
-| Linux, regular setup | /etc/docker/daemon.json                  |
-| Linux, rootless mode | ~/.config/docker/daemon.json             |
-| macOS                | ~/.docker/daemon.json                    |
-| Windows              | C:\ProgramData\docker\config\daemon.json |
-| Docker Desktop       | Preferences->Docker engine               |
+| Операционная система | Путь к файлу конфигурации                    |
+|----------------------|----------------------------------------------|
+| Linux, regular setup | /etc/docker/daemon.json                      |
+| Linux, rootless mode | ~/.config/docker/daemon.json                 |
+| macOS                | ~/.docker/daemon.json                        |
+| OrbStack             | Settings -> Docker -> Advanced engine config |
+| Windows              | C:\ProgramData\docker\config\daemon.json     |
+| Docker Desktop       | Preferences -> Docker engine                 |
 
 Конфиг:
 
@@ -33,4 +34,5 @@ $ systemctl restart docker
 
 ```bash
 $ docker pull huecker.io/library/alpine:latest
+$ docker pull huecker.io/n8nio/n8n:latest
 ```
