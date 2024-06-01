@@ -53,6 +53,8 @@ $ systemctl restart docker
 
 Now when trying to download an image, docker will try to use the proxy first
 
+[Other Mirrors](/others)
+
 ## 3. Explicitly specifying the address {#explicit}
 
 ```bash
