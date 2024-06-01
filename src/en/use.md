@@ -25,10 +25,10 @@ Config ([located here](#config-path)):
 }
 ```
 
-Restart docker (systemd):
+Reload Docker configuration (systemd):
 
 ```bash
-$ systemctl restart docker
+$ systemctl reload docker
 ```
 
 ## 2. As a mirror of docker.io {#mirror}
@@ -45,10 +45,10 @@ Config ([located here](#config-path)):
 }
 ```
 
-Restart docker (systemd):
+Reload Docker configuration (systemd):
 
 ```bash
-$ systemctl restart docker
+$ systemctl reload docker
 ```
 
 Now when trying to download an image, docker will try to use the proxy first
