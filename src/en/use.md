@@ -1,23 +1,38 @@
 # How to Use {#usage}
 
-> [!CAUTION] Act wisely!
-> By using any proxies, you expose yourself to security risks.
-> Third parties can intercept and modify all traffic, including logins and passwords.
-
 > [!WARNING] huecker.io is in the development stage and does not guarantee 100% availability and security.
 
-## 1. Via docker config (as a mirror of docker.io) {#config}
+## 1. New Secure Method (SOCKS5) {#socks5}
 
-| Operating System     | Path to configuration file                   |
-| -------------------- | -------------------------------------------- |
-| Linux, regular setup | /etc/docker/daemon.json                      |
-| Linux, rootless mode | ~/.config/docker/daemon.json                 |
-| macOS                | ~/.docker/daemon.json                        |
-| OrbStack             | Settings -> Docker -> Advanced engine config |
-| Windows              | C:\ProgramData\docker\config\daemon.json     |
-| Docker Desktop       | Preferences -> Docker engine                 |
+**This method eliminates the possibility of traffic interception and image tampering.**
 
-Config:
+By using a SOCKS5 proxy, you receive data from docker.io without any alterations.
+Additionally, the SSL certificate of docker.io is verified, reducing the risk to virtually zero.
+
+Config ([located here](#config-path)):
+
+```json
+{
+  "proxies": {
+    "http-proxy": "socks5://95.217.168.125:1080",
+    "https-proxy": "socks5://95.217.168.125:1080"
+  }
+}
+```
+
+Restart docker (systemd):
+
+```bash
+$ systemctl restart docker
+```
+
+## 2. As a mirror of docker.io {#mirror}
+
+> [!CAUTION] Act wisely!
+> By using any mirrors, you expose yourself to security risks.
+> Third parties can intercept and modify all traffic, including logins and passwords.
+
+Config ([located here](#config-path)):
 
 ```json
 {
@@ -33,9 +48,20 @@ $ systemctl restart docker
 
 Now when trying to download an image, docker will try to use the proxy first
 
-## 2. Explicitly specifying the address {#explicit}
+## 3. Explicitly specifying the address {#explicit}
 
 ```bash
 $ docker pull huecker.io/library/alpine:latest
 $ docker pull huecker.io/n8nio/n8n:latest
 ```
+
+## Path to Docker Configuration {#config-path}
+
+| Operating System     | Path to configuration file                   |
+| -------------------- | -------------------------------------------- |
+| Linux, regular setup | /etc/docker/daemon.json                      |
+| Linux, rootless mode | ~/.config/docker/daemon.json                 |
+| macOS                | ~/.docker/daemon.json                        |
+| OrbStack             | Settings -> Docker -> Advanced engine config |
+| Windows              | C:\ProgramData\docker\config\daemon.json     |
+| Docker Desktop       | Preferences -> Docker engine                 |

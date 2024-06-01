@@ -1,23 +1,38 @@
 # Использование {#usage}
 
-> [!CAUTION] Действуйте разумно!
-> Используя любые прокси, вы подвергаете себя риску безопасности.
-> Третьи лица могут подменять образы и перехватывать весь трафик, включая логины и пароли.
-
 > [!WARNING] huecker.io находится в стадии разработки и не гарантирует 100% доступности и безопасности.
 
-## 1. Через конфиг докера (как зеркало docker.io) {#config}
+## 1. Новый безопасный способ (SOCKS5) {#socks5}
 
-| Операционная система | Путь к файлу конфигурации                    |
-| -------------------- | -------------------------------------------- |
-| Linux, regular setup | /etc/docker/daemon.json                      |
-| Linux, rootless mode | ~/.config/docker/daemon.json                 |
-| macOS                | ~/.docker/daemon.json                        |
-| OrbStack             | Settings -> Docker -> Advanced engine config |
-| Windows              | C:\ProgramData\docker\config\daemon.json     |
-| Docker Desktop       | Preferences -> Docker engine                 |
+**Этот способ исключает возможность перехвата трафика и подмены образов.**
 
-Конфиг:
+При использовании SOCKS5 прокси, вы получаете данные от docker.io без изменений.
+Вдобавок, выполняется проверка SSL сертификата docker.io, что сводит вероятность практически к нулю.
+
+Конфиг ([находится здесь](#config-path)):
+
+```json
+{
+  "proxies": {
+    "http-proxy": "socks5://95.217.168.125:1080",
+    "https-proxy": "socks5://95.217.168.125:1080"
+  }
+}
+```
+
+Перезапуск докера (systemd):
+
+```bash
+$ systemctl restart docker
+```
+
+## 2. Зеркало docker.io {#mirror}
+
+> [!CAUTION] Действуйте разумно!
+> Используя любые зеркала, вы подвергаете себя риску безопасности.
+> Третьи лица могут подменять образы и перехватывать весь трафик, включая логины и пароли.
+
+Конфиг ([находится здесь](#config-path)):
 
 ```json
 {
@@ -33,9 +48,20 @@ $ systemctl restart docker
 
 Теперь при попытке загрузки образа, докер будет сначала пытаться использовать прокси
 
-## 2. Явное указание адреса {#explicit}
+## 3. Явное указание адреса {#explicit}
 
 ```bash
 $ docker pull huecker.io/library/alpine:latest
 $ docker pull huecker.io/n8nio/n8n:latest
 ```
+
+## Путь к конфигурации Docker {#config-path}
+
+| Операционная система | Путь к файлу конфигурации                    |
+| -------------------- | -------------------------------------------- |
+| Linux, regular setup | /etc/docker/daemon.json                      |
+| Linux, rootless mode | ~/.config/docker/daemon.json                 |
+| macOS                | ~/.docker/daemon.json                        |
+| OrbStack             | Settings -> Docker -> Advanced engine config |
+| Windows              | C:\ProgramData\docker\config\daemon.json     |
+| Docker Desktop       | Preferences -> Docker engine                 |
