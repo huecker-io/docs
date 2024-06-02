@@ -7,8 +7,8 @@ const data = useData();
 
 const textByLang = {
   ru: `Помогите протестировать <b>безопасный SOCKS5 прокси</b> ->`,
-  en: `Help to test a <b>secure SOCKS5 proxy</b> ->`
-}
+  en: `Help to test a <b>secure SOCKS5 proxy</b> ->`,
+};
 </script>
 
 <template>
@@ -49,21 +49,27 @@ const textByLang = {
   right: 0;
   bottom: 0;
   background: var(--vp-c-border);
-  transition: background-color .25s ease;
+  transition: background-color 0.25s ease;
 }
 
 .banner:hover .lines {
-  background: var(--vp-c-brand-1)
+  background: var(--vp-c-brand-1);
 }
 
 .lines::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, var(--vp-c-brand-1) 0%, var(--vp-c-brand-1) 49%, transparent 50%, transparent 50%);
+  background: linear-gradient(
+    to right,
+    var(--vp-c-brand-1) 0%,
+    var(--vp-c-brand-1) 49%,
+    transparent 50%,
+    transparent 50%
+  );
   filter: blur(5px);
   animation: spin 5s linear infinite;
 }
@@ -82,7 +88,7 @@ const textByLang = {
     transform: scaleY(0.2) rotate(270deg);
   }
   100% {
-    transform: scaleY(0.5) rotate(360deg)
+    transform: scaleY(0.5) rotate(360deg);
   }
 }
 </style>
