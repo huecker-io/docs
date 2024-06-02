@@ -1,5 +1,17 @@
 # Распространенные проблемы {#issues}
 
+## Image digest отличается от оригинала {#digest}
+
+[Stack Overflow](https://stackoverflow.com/questions/45533005/why-digests-are-different-depend-on-registry)
+
+## Ошибка `missing signature key` {#missing-signature-key}
+
+<!-- thanks @BadBadBat -->
+
+Вероятно, вы используете устаревшую версию Docker. Обновите Docker до последней версии.
+
+[Stack Overflow](https://stackoverflow.com/questions/60697752/getting-docker-error-daemon-is-missing-signature-key-on-docker-pull)
+
 ## Использование SOCKS5 вместе с Watchtower {#watchtower-socks5}
 
 <!-- https://github.com/huecker-io/huecker/issues/3 -->
