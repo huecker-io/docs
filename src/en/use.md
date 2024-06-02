@@ -59,7 +59,7 @@ $ systemctl restart docker
 $ systemctl restart docker
 ```
 
-Now when trying to download an image, docker will try to use the proxy first
+Now, when attempting to pull an image, Docker will first try to use the specified mirrors.
 
 [Other Mirrors](others)
 
