@@ -1,14 +1,18 @@
 # How to Use {#usage}
 
-> [!WARNING] huecker.io is in the development stage and does not guarantee 100% availability and security.
+huecker.io is in the development stage and does not guarantee 100% availability and security.
 
 ## 1. New Secure Method (SOCKS5) <Badge type="warning" text="experiment" /> {#socks5}
 
-**This method eliminates the possibility of traffic interception and image tampering.**
+<!-- thanks @dmitry_pchelintsev -->
 
-> [!NOTE] Limitations
+> [!IMPORTANT] Works only with Docker Engine 23.0 and above
+
+> [!WARNING] Limitations
 > Proxy connects only to `registry-1.docker.io` and other servers necessary for Docker Hub to work.
 > To access other resources, such as `ghcr.io`, specify their addresses in the `no-proxy` parameter.
+
+**This method eliminates the possibility of traffic interception and image tampering.**
 
 By using a SOCKS5 proxy, you receive data from the original sources **without any modifications**.
 Additionally, SSL certificate verification is performed, reducing the risk **to virtually zero**.
@@ -23,6 +27,8 @@ Config example ([located here](#config-path)):
   }
 }
 ```
+
+<!-- thanks @krant0r for 443 -->
 
 > IP: `95.217.168.125`, ports: `1080`, `443`  
 > We recommend using a domain name, the IP address is not guaranteed to be constant.
