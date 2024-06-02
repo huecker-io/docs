@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { useData } from "vitepress";
-import { VPBadge } from "vitepress/theme";
-import { computed } from "vue";
 
 const data = useData();
 
