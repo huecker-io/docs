@@ -24,7 +24,7 @@ Config example ([located here](#config-path)):
 }
 ```
 
-> IP: `95.217.168.125`, ports: `1080`, `443`
+> IP: `95.217.168.125`, ports: `1080`, `443`  
 > We recommend using a domain name, the IP address is not guaranteed to be constant.
 
 Restart Docker (systemd):
