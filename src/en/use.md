@@ -17,7 +17,7 @@ huecker.io is in the development stage and does not guarantee 100% availability 
 By using a SOCKS5 proxy, you receive data from the original sources **without any modifications**.
 Additionally, SSL certificate verification is performed, reducing the risk **to virtually zero**.
 
-Config example ([located here](#config-path)):
+**Config example ([located here](#config-path))**
 
 ```json
 {
@@ -33,7 +33,7 @@ Config example ([located here](#config-path)):
 > IP: `95.217.168.125`, ports: `1080`, `443`  
 > We recommend using a domain name, the IP address is not guaranteed to be constant.
 
-Restart Docker (systemd):
+**Restart Docker (systemd)**
 
 ```bash
 $ systemctl restart docker
@@ -45,7 +45,7 @@ $ systemctl restart docker
 > By using any mirrors, you expose yourself to security risks.
 > Third parties can intercept and modify all traffic, including logins and passwords.
 
-Config ([located here](#config-path)):
+**Config ([located here](#config-path))**
 
 ```json
 {
@@ -53,7 +53,7 @@ Config ([located here](#config-path)):
 }
 ```
 
-Restart Docker (systemd):
+**Restart Docker (systemd)**
 
 ```bash
 $ systemctl restart docker
@@ -61,7 +61,7 @@ $ systemctl restart docker
 
 Now when trying to download an image, docker will try to use the proxy first
 
-[Other Mirrors](/others)
+[Other Mirrors](others)
 
 ## 3. Explicitly specifying the address {#explicit}
 

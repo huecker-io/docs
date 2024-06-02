@@ -56,7 +56,6 @@ export default defineConfig({
         returnToTopLabel: "Наверх",
         langMenuLabel: "Сменить язык",
         nav: [
-          { text: "Зачем", link: "/reasons" },
           { text: "Как использовать", link: "/use" },
           { text: "Поддержать", link: "/support" },
           { text: "Авторы", link: "/authors" },
@@ -68,6 +67,7 @@ export default defineConfig({
               { text: "Зачем", link: "/reasons" },
               { text: "Использование", link: "/use" },
               { text: "Другие прокси", link: "/others" },
+              { text: "Распространенные проблемы", link: "/issues" },
               { text: "Поддержать", link: "/support" },
               { text: "Авторы", link: "/authors" },
             ],
@@ -89,7 +89,6 @@ export default defineConfig({
         "Open-source proxy for using Docker Hub from blocked countries",
       themeConfig: {
         nav: [
-          { text: "Reasons", link: "/en/reasons" },
           { text: "How to Use", link: "/en/use" },
           { text: "Support", link: "/en/support" },
           { text: "Authors", link: "/en/authors" },
@@ -97,12 +96,14 @@ export default defineConfig({
         sidebar: [
           {
             text: "Documentation",
+            base: "/en",
             items: [
-              { text: "Reasons", link: "/en/reasons" },
-              { text: "How to Use", link: "/en/use" },
-              { text: "Other Proxies", link: "/en/others" },
-              { text: "Support", link: "/en/support" },
-              { text: "Authors", link: "/en/authors" },
+              { text: "Reasons", link: "/reasons" },
+              { text: "How to Use", link: "/use" },
+              { text: "Other Proxies", link: "/others" },
+              { text: "Common Issues", link: "/issues" },
+              { text: "Support", link: "/support" },
+              { text: "Authors", link: "/authors" },
             ],
           },
         ],
