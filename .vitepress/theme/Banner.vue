@@ -10,7 +10,10 @@ const textByLang = {
 </script>
 
 <template>
-  <a href="/use#socks5" class="banner">
+  <a
+    :href="`/${data.lang.value !== 'ru' ? `${data.lang.value}/` : ''}use#socks5`"
+    class="banner"
+  >
     <span class="lines"></span>
     <span class="inner" v-html="textByLang[data.lang.value]" />
   </a>
