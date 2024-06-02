@@ -18,13 +18,13 @@
 ```json
 {
   "proxies": {
-    "https-proxy": "socks5://proxy.huecker.io:1080",
+    "https-proxy": "socks5://proxy.huecker.io:443",
     "no-proxy": "ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
   }
 }
 ```
 
-> IP: `95.217.168.125:1080`  
+> IP: `95.217.168.125`, порты: `1080`, `443`
 > Рекомендуем использовать доменное имя, постоянство IP не гарантируется.
 
 Перезапуск Docker (systemd):

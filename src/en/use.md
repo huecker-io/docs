@@ -18,13 +18,13 @@ Config example ([located here](#config-path)):
 ```json
 {
   "proxies": {
-    "https-proxy": "socks5://proxy.huecker.io:1080",
+    "https-proxy": "socks5://proxy.huecker.io:443",
     "no-proxy": "ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
   }
 }
 ```
 
-> IP: `95.217.168.125:1080`
+> IP: `95.217.168.125`, ports: `1080`, `443`
 > We recommend using a domain name, the IP address is not guaranteed to be constant.
 
 Restart Docker (systemd):
