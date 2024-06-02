@@ -23,10 +23,15 @@ huecker.io находится в стадии разработки и не га�
 {
   "proxies": {
     "https-proxy": "socks5://proxy.huecker.io:443",
-    "no-proxy": "ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
+    "no-proxy": "huecker.io,ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
   }
 }
 ```
+
+<!-- thanks https://github.com/Seokky -->
+<!-- https://github.com/huecker-io/huecker/issues/4 -->
+
+> Если вы использовали `registry-mirrors`, удалите параметр из конфига.
 
 <!-- thanks @krant0r for 443 -->
 

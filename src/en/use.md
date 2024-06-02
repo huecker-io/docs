@@ -23,10 +23,15 @@ Additionally, SSL certificate verification is performed, reducing the risk **to 
 {
   "proxies": {
     "https-proxy": "socks5://proxy.huecker.io:443",
-    "no-proxy": "ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
+    "no-proxy": "huecker.io,ghcr.io,*.test.example.com,.example.org,127.0.0.0/8"
   }
 }
 ```
+
+<!-- thanks https://github.com/Seokky -->
+<!-- https://github.com/huecker-io/huecker/issues/4 -->
+
+> If you used `registr>y-mirrors`, remove it from the config.
 
 <!-- thanks @krant0r for 443 -->
 
