@@ -36,7 +36,7 @@ const textByLang = {
   padding: 6px 12px;
   display: block;
   background: var(--vp-c-bg-soft);
-  border-radius: 10px;
+  border-radius: 11px;
 }
 
 .inner :deep(b) {
