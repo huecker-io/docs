@@ -4,8 +4,8 @@ import { useData } from "vitepress";
 const data = useData();
 
 const textByLang = {
-  ru: `Помогите протестировать <b>безопасный SOCKS5 прокси</b> ->`,
-  en: `Help to test a <b>secure SOCKS5 proxy</b> ->`,
+  ru: `Попробуйте <b>безопасный SOCKS5 прокси</b> ->`,
+  en: `Try a <b>secure SOCKS5 proxy</b> ->`,
 };
 </script>
 
