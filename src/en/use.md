@@ -11,7 +11,7 @@ It has been an incredible experience, and we thank everyone who supported us dur
 
 > _so long and thanks for all the fish_
 
-## 1. New Secure Method (SOCKS5) <Badge type="warning" text="experiment" /> {#socks5}
+## 1. SOCKS5 Proxy {#socks5}
 
 <!-- thanks @dmitry_pchelintsev -->
 

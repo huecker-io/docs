@@ -11,7 +11,7 @@
 
 > _so long and thanks for all the fish_
 
-## 1. Новый безопасный способ (SOCKS5) <Badge type="warning" text="эксперимент" /> {#socks5}
+## 1. SOCKS5 прокси {#socks5}
 
 <!-- thanks @dmitry_pchelintsev -->
 
