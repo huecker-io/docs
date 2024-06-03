@@ -1,6 +1,15 @@
 # How to Use {#usage}
 
-huecker.io is in the development stage and does not guarantee 100% availability and security.
+## Docker Hub Unbanned {#unbanned}
+
+**We won! Docker Hub is available again in Russia.**
+
+Support for huecker.io will continue until **June 14, 2024, 15:00 UTC**.
+After that time, we will begin shutting down the circumvention services. Documentation will remain available for historical purposes.
+
+It has been an incredible experience, and we thank everyone who supported us during the short lifespan of the project.
+
+> _so long and thanks for all the fish_
 
 ## 1. New Secure Method (SOCKS5) <Badge type="warning" text="experiment" /> {#socks5}
 
