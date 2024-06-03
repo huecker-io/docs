@@ -66,7 +66,7 @@ export default defineConfig({
             items: [
               { text: "Зачем", link: "/reasons" },
               { text: "Использование", link: "/use" },
-              { text: "Другие прокси", link: "/others" },
+              { text: "Другие зеркала", link: "/others" },
               { text: "Распространенные проблемы", link: "/issues" },
               { text: "Поддержать", link: "/support" },
               { text: "Авторы", link: "/authors" },
@@ -100,7 +100,7 @@ export default defineConfig({
             items: [
               { text: "Reasons", link: "/reasons" },
               { text: "How to Use", link: "/use" },
-              { text: "Other Proxies", link: "/others" },
+              { text: "Other Mirrors", link: "/others" },
               { text: "Common Issues", link: "/issues" },
               { text: "Support", link: "/support" },
               { text: "Authors", link: "/authors" },

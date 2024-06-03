@@ -4,14 +4,14 @@ import { useData } from "vitepress";
 const data = useData();
 
 const textByLang = {
-  ru: `Попробуйте <b>безопасный SOCKS5 прокси</b> ->`,
-  en: `Try a <b>secure SOCKS5 proxy</b> ->`,
+  ru: `<b>Поддержка проекта прекращается</b> ->`,
+  en: `<b>Project is sunsetting</b> ->`,
 };
 </script>
 
 <template>
   <a
-    :href="`/${data.lang.value !== 'ru' ? `${data.lang.value}/` : ''}use#socks5`"
+    :href="`/${data.lang.value !== 'ru' ? `${data.lang.value}/` : ''}use#unbanned`"
     class="banner"
   >
     <span class="lines"></span>
@@ -54,7 +54,7 @@ const textByLang = {
 }
 
 .banner:hover .lines {
-  background: var(--vp-c-brand-1);
+  background: var(--vp-c-danger-3);
 }
 
 .lines::before {
@@ -66,8 +66,8 @@ const textByLang = {
   bottom: 0;
   background: linear-gradient(
     to right,
-    var(--vp-c-brand-1) 0%,
-    var(--vp-c-brand-1) 49%,
+    var(--vp-c-danger-3) 0%,
+    var(--vp-c-danger-3) 49%,
     transparent 50%,
     transparent 50%
   );
