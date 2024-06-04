@@ -30,7 +30,7 @@ features:
   - icon: 🤝
     title: Прозрачно
     details: Открытый исходный код на GitHub
-    link: https://github.com/huecker-io/huecker
+    link: https://github.com/huecker-io
     linkText: Перейти
   - icon: 😻
     title: С заботой о животных

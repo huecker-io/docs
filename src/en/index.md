@@ -30,7 +30,7 @@ features:
   - icon: 🤝
     title: Transparent
     details: Open-source on GitHub
-    link: https://github.com/huecker-io/huecker
+    link: https://github.com/huecker-io
     linkText: Visit
   - icon: 😻
     title: With Animal Care

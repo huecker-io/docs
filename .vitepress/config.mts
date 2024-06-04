@@ -166,7 +166,7 @@ export default defineConfig({
       dark: "/logo_dark.svg",
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/huecker-io/huecker" },
+      { icon: "github", link: "https://github.com/huecker-io" },
       { icon: { svg: telegramSvg }, link: "https://t.me/hueckerio" },
       { icon: "youtube", link: "https://t.ly/1El1f" },
     ],
