@@ -2,7 +2,6 @@
 import { h } from "vue";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
-import "./Banner.vue";
 import "./style.css";
 import Banner from "./Banner.vue";
 

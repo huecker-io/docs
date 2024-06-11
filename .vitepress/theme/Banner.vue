@@ -4,8 +4,8 @@ import { useData } from "vitepress";
 const data = useData();
 
 const textByLang = {
-  ru: `<b>Поддержка проекта прекращается</b> ->`,
-  en: `<b>Project is sunsetting</b> ->`,
+  ru: `<b>Docker Hub снова доступен в России</b> ->`,
+  en: `<b>Docker Hub is available in Russia again</b> ->`,
 };
 </script>
 
@@ -54,7 +54,7 @@ const textByLang = {
 }
 
 .banner:hover .lines {
-  background: var(--vp-c-danger-3);
+  background: var(--vp-c-brand-1);
 }
 
 .lines::before {
@@ -66,8 +66,8 @@ const textByLang = {
   bottom: 0;
   background: linear-gradient(
     to right,
-    var(--vp-c-danger-3) 0%,
-    var(--vp-c-danger-3) 49%,
+    var(--vp-c-brand-1) 0%,
+    var(--vp-c-brand-1) 49%,
     transparent 50%,
     transparent 50%
   );

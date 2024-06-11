@@ -14,8 +14,11 @@ hero:
     alt: Хуёкер
   actions:
     - theme: brand
-      text: Docker Hub разблокирован
-      link: /use#unbanned
+      text: Как использовать
+      link: /use#socks5
+    - theme: alt
+      text: Зачем это нужно
+      link: /reasons
     - theme: alt
       text: Поддержать
       link: /support

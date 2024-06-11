@@ -14,8 +14,11 @@ hero:
     alt: Huecker
   actions:
     - theme: brand
-      text: Docker Hub unbanned
-      link: /en/use#unbanned
+      text: How to Use
+      link: /en/use#socks5
+    - theme: alt
+      text: Reasons
+      link: /en/reasons
     - theme: alt
       text: Support
       link: /en/support

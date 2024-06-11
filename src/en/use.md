@@ -4,12 +4,7 @@
 
 **We won! Docker Hub is available again in Russia.**
 
-Support for huecker.io will continue until **June 14, 2024, 15:00 UTC**.
-After that time, we will begin shutting down the circumvention services. Documentation will remain available for historical purposes.
-
-It has been an incredible experience, and we thank everyone who supported us during the short lifespan of the project.
-
-> _so long and thanks for all the fish_
+Using proxies or mirrors is no longer required. We recommend removing them from the Docker configuration.
 
 ## 1. SOCKS5 Proxy {#socks5}
 
@@ -44,7 +39,7 @@ Additionally, SSL certificate verification is performed, reducing the risk **to 
 
 <!-- thanks @krant0r for 443 -->
 
-> IP: `95.217.168.125`, ports: `1080`, `443`  
+> IP: `95.217.168.125`, ports: `1080`, `443`
 > We recommend using a domain name, the IP address is not guaranteed to be constant.
 
 **Restart Docker (systemd)**
