@@ -168,7 +168,7 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/huecker-io" },
       { icon: { svg: telegramSvg }, link: "https://t.me/hueckerio" },
-      { icon: "youtube", link: "https://t.ly/1El1f" },
+      { icon: "youtube", link: "https://youtu.be/dQw4w9WgXcQ" },
     ],
   },
 });
